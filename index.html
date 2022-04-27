@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Imtihon-3</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <h1 class="text-center mt-3">Pitsa buyurtma qilish</h1>
+    <form class="js-order-form mt-3" action="https://echo.htmlacademy.ru" method="POST">
+      <div class="row">
+        <div class="col-8 d-flex flex-column border-right">
+
+          <label class="h5" for="bread">Noni qanday bo'lsin?</label>
+          <select class="js-order-select w-25" name="bread" id="bread">
+            <option value="" selected disabled>Tanlang!</option>
+          </select>
+
+          <h2 class="h5 mt-3">Kattaligi</h2>
+          <div class="bread-size w-50 d-flex justify-content-between">
+          </div>
+
+          <h2 class="h5 mt-3">Ustiga nima solaylik</h2>
+          <div class="ingredients w-50 d-flex justify-content-between flex-wrap">
+          </div>
+
+          <h2 class="h5 mt-3">Qo'shimchalar</h2>
+          <div class="attechments w-50 d-flex justify-content-between flex-wrap">
+          </div>
+
+        </div>
+
+        <div class="col-4">
+          <p class="h4">Non:
+            <span class="bread-types h4 text-danger"></span>
+          </p>
+
+          <p class="h4">Kattaligi:
+            <span class="size-types h4 text-danger"></span>
+          </p>
+
+          <p class="h4">Ustida:
+          <ul class="on-the-bread h4 text-danger">
+
+          </ul>
+          </p>
+
+          <p class="h4">Qo'shimcha:
+          <ul class="attechments-types h4 text-danger"></ul>
+          </p>
+
+          <button class="btn btn-danger text-white" type="submit">Buyurtma berish</button>
+          <p class="text-danger result mt-3 h5"></p>
+        </div>
+
+      </div>
+    </form>
+  </div>
+
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
